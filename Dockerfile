@@ -1,4 +1,4 @@
-FROM debian:11.7-slim
+FROM debian:12.0-slim
 ARG tz Asia/Tokyo
 ENV TZ $tz
 RUN ln -snvf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
