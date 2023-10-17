@@ -26,4 +26,4 @@ jobs:
       - name: Build
         run: make build
       - name: Test
-        run: docker run --rm docker-debian-emacs emacs --version
+        run: docker run --rm docker-debian-emacs --version

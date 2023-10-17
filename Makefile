@@ -1,5 +1,5 @@
 IMAGE_NAME = "docker-debian-emacs"
-IMAGE_TAG = "0.1.0"
+IMAGE_TAG = "0.2.0"
 IMAGE = $(IMAGE_NAME):$(IMAGE_TAG)
 
 build: Dockerfile
